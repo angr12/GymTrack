@@ -26,7 +26,13 @@ const Home = () => {
       />
 
       <ScrollView>
-        <Welcome />
+        <View style={
+          {
+            padding: 15,
+          }
+        }>
+          <Welcome />
+        </View>
       </ScrollView>
     </SafeAreaView>
   );
